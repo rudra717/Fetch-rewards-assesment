@@ -10,12 +10,12 @@ The server handles various error cases, such as missing attributes in the JSON b
 It's worth noting that the code related to this assignment can be found in the file fetch-points.go
 
 STEPS TO REPRODUCE THE RESULTS:
-1. Git clone the project using https://github.com/rudra717/Fetch-rewards-assesment.git <br>
+1. Git clone the project using the command "git clone https://github.com/rudra717/Fetch-rewards-assesment.git" <br>
 2. Open Terminal and go to the repository <br>
 3. Build the Docker image using the following command: docker build -t receipt-api . <br>
 This command builds the Docker image and tags it as receipt-api <br>
-4. Run the Docker container from the image: docker run -p 8000:8000 receipt-api <br>
-5. Now, Go application should be running inside the Docker container, and you can access and try the API using different examples by sending requests to http://localhost:8080 using POSTMAN <br>
+4. Run the Docker container from the image: docker run -p 8080:8080 receipt-api <br>
+5. Now, the Go application should be running inside the Docker container, and you can access and try the API using different examples by sending requests to http://localhost:8080 using POSTMAN or cURL <br>
 /receipts/process endpoint --> POST: http://localhost:8080/receipts/process <br>
 /receipts/{id}/points endpoint --> GET: http://localhost:8080/receipts/{id}/points <br>
 
