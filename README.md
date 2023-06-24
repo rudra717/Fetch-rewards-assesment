@@ -15,8 +15,8 @@ STEPS TO REPRODUCE THE RESULTS:
 3. Build the Docker image using the following command: docker build -t receipt-api . <br>
 This command builds the Docker image and tags it as receipt-api <br>
 4. Run the Docker container from the image: docker run -p 8000:8000 receipt-api <br>
-5. Now, Go application should be running inside the Docker container, and you can access and try the API using different examples by sending requests to http://localhost:8080 using POSTMAN
-/receipts/process endpoint --> POST: http://localhost:8080/receipts/process
-/receipts/{id}/points endpoint --> GET: http://localhost:8080/receipts/{id}/points
+5. Now, Go application should be running inside the Docker container, and you can access and try the API using different examples by sending requests to http://localhost:8080 using POSTMAN <br>
+/receipts/process endpoint --> POST: http://localhost:8080/receipts/process <br>
+/receipts/{id}/points endpoint --> GET: http://localhost:8080/receipts/{id}/points <br>
 
 
